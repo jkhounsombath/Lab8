@@ -2,6 +2,7 @@
 
 Executive::Executive(std::string fileName)
 {
+	heap = new maxMin();
 	std::ifstream inFile("data.txt");
 	std::string name;
 	int downloads;
